@@ -236,6 +236,13 @@ img {
     width: 295px;
 }
 
+.home__img img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 /* ===== ABOUT =====*/
 .about__container {
     justify-items: center;
