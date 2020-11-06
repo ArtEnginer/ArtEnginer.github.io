@@ -376,6 +376,7 @@ img:after {
 }
 
 .portfolio__link {
+
     position: absolute;
     bottom: -100%;
     width: 100%;
@@ -383,7 +384,7 @@ img:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, .3);
+    background-image: linear-gradient(rgba(111, 32, 163, 0.534), rgba(111, 32, 163, 0.288));
     border-radius: .5rem;
     cursor: pointer;
     backdrop-filter: blur(10px);
@@ -395,7 +396,7 @@ img:after {
 }
 
 .portfolio__link-name {
-    color: var(--dark-color);
+    color: var(--white-color);
 }
 
 /* ===== CONTACT =====*/
@@ -466,7 +467,7 @@ img:after {
 
 /* ===== FOOTER=====*/
 .footer {
-    background-color: var(--dark-color);
+    background-image: linear-gradient(rgba(111, 32, 163, 0.288), rgba(111, 32, 163, 0.534));
 }
 
 .footer__container {
@@ -654,6 +655,12 @@ img:after {
 
     .about__img {
         background-color: none;
+    }
+
+    .portfolio__img img {
+        border-radius: .5rem;
+        opacity: 1;
+        height: 27rem;
     }
 
 }
