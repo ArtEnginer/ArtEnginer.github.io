@@ -631,7 +631,7 @@ img:after {
 
     .about__img {
         width: 200px;
-        height: 200px;
+        height: auto;
     }
 
 
@@ -687,13 +687,13 @@ img:after {
         padding: 3px;
     }
 
-    .about__img:after {
+    /* .about__img:after {
         content: "";
         background-color: var(--first-color);
         border-radius: 50%;
         opacity: 0.5;
         /* z-index: var(--z-fixed); */
-    }
+    } */
 
     .home__img,
     img {
